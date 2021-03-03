@@ -7,7 +7,7 @@
 
 
     function base_url($paht = ''){
-        return 'http://localhost/NTK/'.$paht; 
+        return 'http://localhost/AKA-flora/'.$paht; 
     }
     function base_admin($paht = ''){
         return base_url("admin.php?page=".$paht);
